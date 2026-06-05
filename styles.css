@@ -533,8 +533,11 @@ img {
 }
 
 .deadline {
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   width: 118px;
   height: 118px;
   color: var(--navy);
@@ -542,14 +545,21 @@ img {
   border-radius: 50%;
   font-size: 27px;
   font-weight: 900;
-  flex-direction: column;
+
   gap: 0;
-  line-height: 0.95;
+  line-height: 0.9;
+}
+
+.deadline-date {
+  display: block;
+  line-height: 0.9;
+  margin-bottom: 4px;
 }
 
 .deadline-until {
-  margin-top: 0;
-  line-height: 1;
+  display: block;
+  margin-top: 4px;
+  line-height: 0.9;
 }
 
 .campaign-box small {
