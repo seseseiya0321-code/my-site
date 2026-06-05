@@ -899,3 +899,10 @@ img {
   width: 48px;
   height: 48px;
 }
+
+.line-qr-card {
+  max-width: 236px;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
