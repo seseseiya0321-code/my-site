@@ -880,3 +880,22 @@ img {
     text-align: center;
   }
 }
+
+/* ===== Qurea Study ロゴ画像（Q＋星＋本） ===== */
+.brand-mark-img {
+  display: block;
+  flex: 0 0 auto;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+/* 以前の文字Qロゴを使わない場合は、この指定は残っていてもOK */
+.brand-mark {
+  display: none;
+}
+
+.brand-mark-img {
+  width: 48px;
+  height: 48px;
+}
