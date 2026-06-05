@@ -542,6 +542,14 @@ img {
   border-radius: 50%;
   font-size: 27px;
   font-weight: 900;
+  flex-direction: column;
+  gap: 0;
+  line-height: 0.95;
+}
+
+.deadline-until {
+  margin-top: 0;
+  line-height: 1;
 }
 
 .campaign-box small {
